@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="poloWhiteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0b0b0d"/>
+    </linearGradient>
+
+    <!-- White Waffle Knit Fabric Gradient -->
+    <linearGradient id="waffleFabric" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+
+    <!-- Burgundy Embroidery Color -->
+    <linearGradient id="burgundyEmbroidery" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="100%" stop-color="#2c020d"/>
+    </linearGradient>
+
+    <filter id="dorSaintShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#poloWhiteBg)"/>
+
+  <!-- Pink rack background simulation as seen in Photo 4 -->
+  <rect x="50" y="80" width="700" height="260" fill="#f43f5e" opacity="0.15" rx="8"/>
+
+  <!-- HUD Tag -->
+  <text x="40" y="55" fill="#ff5500" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="2">PHOTO 04 // "DO'R SAINT" RUGBY POLO</text>
+  <text x="760" y="55" fill="#71717a" font-family="monospace" font-size="13" text-anchor="end">SINDHU BHAVAN STORE</text>
+
+  <!-- Black Metal Hanger -->
+  <g transform="translate(400, 110)">
+    <path d="M 0,25 C -5,10 -15,0 -20,-15 C -25,-32 -10,-55 12,-52 C 28,-50 32,-35 22,-20 C 18,-15 5,-5 0,25" fill="none" stroke="#71717a" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="0,25 -220,110 -210,122 0,45 210,122 220,110" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="-18" y="25" width="36" height="18" fill="#09090b" rx="2" stroke="#52525b"/>
+  </g>
+
+  <!-- White Polo Shirt Body & Long Sleeves -->
+  <g filter="url(#dorSaintShadow)">
+    <path d="
+      M 320,150 
+      L 480,150
+      L 630,210
+      L 710,490
+      L 630,520
+      L 580,360
+      L 580,780
+      L 220,780
+      L 220,360
+      L 170,520
+      L 90,490
+      L 170,210
+      Z
+    " fill="url(#waffleFabric)" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <!-- Open Spread Rugby Polo Collar (White with clean edges) -->
+    <!-- Collar Left Wing -->
+    <polygon points="310,145 260,250 375,255 350,150" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Collar Right Wing -->
+    <polygon points="490,145 540,250 425,255 450,150" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Open Neck Notch Placket -->
+    <polygon points="360,170 440,170 415,280 385,280" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <!-- Stitched Woven Tag: DRIP STUDIOS INDIA -->
+    <g transform="translate(365, 175)">
+      <rect width="70" height="24" fill="#ffffff" stroke="#94a3b8" rx="1"/>
+      <text x="35" y="12" font-family="sans-serif" font-weight="900" font-size="7" fill="#0f0f11" text-anchor="middle" letter-spacing="1">DRIP STUDIOS</text>
+      <text x="35" y="20" font-family="sans-serif" font-size="5" fill="#71717a" text-anchor="middle">INDIA</text>
+    </g>
+
+    <!-- Metallic Hem Tag at bottom right -->
+    <rect x="545" y="760" width="22" height="15" fill="#ffffff" stroke="#94a3b8" rx="1"/>
+
+    <!-- ================= GRAPHIC & EMBROIDERY ARTWORK ================= -->
+    <!-- 1. Right Chest Cursive Script: "Drip Studios" in deep burgundy embroidery -->
+    <g transform="translate(285, 335)">
+      <text x="0" y="0" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="34" font-weight="bold" fill="#4c0519">Drip Studios</text>
+    </g>
+
+    <!-- 2. Left Chest Heraldic Crest Shield Badge: 2023 D in burgundy & silver -->
+    <g transform="translate(515, 310)">
+      <!-- Crest Outer Shield Border -->
+      <path d="M 0,0 L 50,0 C 50,30 45,60 25,75 C 5,60 0,30 0,0 Z" fill="#ffffff" stroke="#4c0519" stroke-width="3"/>
+      <!-- Inner Shield Infill -->
+      <path d="M 5,5 L 45,5 C 45,28 40,52 25,65 C 10,52 5,28 5,5 Z" fill="#4c0519"/>
+      <!-- Crown Top Ribbons -->
+      <path d="M 12,-5 L 25,-12 L 38,-5" fill="none" stroke="#4c0519" stroke-width="2.5"/>
+      <!-- Year: 2023 -->
+      <text x="25" y="24" font-family="'Arial Black', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">2023</text>
+      <!-- Central Heraldic Initial: D -->
+      <text x="25" y="52" font-family="'Times New Roman', serif" font-style="italic" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">D</text>
+    </g>
+
+    <!-- 3. Center Chest Main Typography: "Do'r Saint" flowing burgundy embroidery calligraphy -->
+    <g transform="translate(400, 480)">
+      <!-- Shadow outline for stitch texture -->
+      <text x="0" y="0" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="110" font-weight="bold" fill="#2c020d" text-anchor="middle">Do'r Saint</text>
+      <!-- Front Burgundy Stitching -->
+      <text x="-1.5" y="-1.5" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="110" font-weight="bold" fill="#58081f" text-anchor="middle">Do'r Saint</text>
+    </g>
+  </g>
+
+  <!-- Bottom Spec Bar Badge -->
+  <rect x="40" y="910" width="720" height="50" fill="#18181b" stroke="#27272a"/>
+  <text x="60" y="940" fill="#ff5500" font-family="monospace" font-size="14" font-weight="bold">BOHOO AHMEDABAD // "DO'R SAINT" RUGBY POLO</text>
+  <text x="740" y="940" fill="#ededed" font-family="monospace" font-size="16" font-weight="bold" text-anchor="end">₹1,000 INR</text>
+</svg>

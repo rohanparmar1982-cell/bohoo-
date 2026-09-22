@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="greenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1713"/>
+      <stop offset="100%" stop-color="#080c0a"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldFabric" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="60%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+
+    <filter id="jerseyShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#greenBg)"/>
+
+  <text x="40" y="55" fill="#ff5500" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="2">PHOTO ARCHIVE // ATHLETIC RACING JERSEY</text>
+  <text x="760" y="55" fill="#71717a" font-family="monospace" font-size="13" text-anchor="end">SINDHU BHAVAN STORE</text>
+
+  <!-- Hanger -->
+  <g transform="translate(400, 110)">
+    <path d="M 0,25 C -5,10 -15,0 -20,-15 C -25,-32 -10,-55 12,-52 C 28,-50 32,-35 22,-20 C 18,-15 5,-5 0,25" fill="none" stroke="#71717a" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="0,25 -220,110 -210,122 0,45 210,122 220,110" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="-18" y="25" width="36" height="18" fill="#09090b" rx="2" stroke="#52525b"/>
+  </g>
+
+  <!-- Jersey Silhouette -->
+  <g filter="url(#jerseyShadow)">
+    <path d="
+      M 320,150 
+      L 480,150
+      L 640,210
+      L 710,420
+      L 620,460
+      L 580,360
+      L 580,780
+      L 220,780
+      L 220,360
+      L 180,460
+      L 90,420
+      L 160,210
+      Z
+    " fill="url(#emeraldFabric)" stroke="#047857" stroke-width="1.5"/>
+
+    <!-- Contrast White Sleeve Racing Stripes -->
+    <path d="M 125,320 L 165,225 L 180,230 L 140,330 Z" fill="#ffffff"/>
+    <path d="M 140,350 L 180,245 L 195,250 L 155,360 Z" fill="#ffffff"/>
+    <path d="M 675,320 L 635,225 L 620,230 L 660,330 Z" fill="#ffffff"/>
+    <path d="M 660,350 L 620,245 L 605,250 L 645,360 Z" fill="#ffffff"/>
+
+    <!-- Ribbed Two-Tone V-Neck Collar -->
+    <polygon points="320,150 480,150 430,240 400,280 370,240" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <polygon points="340,155 460,155 420,230 400,260 380,230" fill="#064e3b"/>
+
+    <!-- Neck tag -->
+    <rect x="375" y="165" width="50" height="20" fill="#ffffff" rx="1"/>
+    <text x="400" y="178" font-family="sans-serif" font-size="7" font-weight="900" fill="#000000" text-anchor="middle">DRIP STUDIOS</text>
+
+    <!-- Center Chest Branding & Block Numbers -->
+    <g transform="translate(400, 390)">
+      <text x="0" y="0" font-family="'Arial Black', Impact, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">JAPAN // DRIP STUDIOS</text>
+      
+      <!-- Big Athletic Number "10" -->
+      <text x="0" y="160" font-family="Impact, sans-serif" font-size="180" font-weight="900" fill="#ffffff" stroke="#064e3b" stroke-width="6" text-anchor="middle" letter-spacing="4">10</text>
+    </g>
+  </g>
+
+  <!-- Bottom Spec Bar Badge -->
+  <rect x="40" y="910" width="720" height="50" fill="#18181b" stroke="#27272a"/>
+  <text x="60" y="940" fill="#ff5500" font-family="monospace" font-size="14" font-weight="bold">BOHOO AHMEDABAD // DRIP RACING FOOTBALL JERSEY</text>
+  <text x="740" y="940" fill="#ededed" font-family="monospace" font-size="16" font-weight="bold" text-anchor="end">₹1,000 INR</text>
+</svg>

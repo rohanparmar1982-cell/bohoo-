@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="poloBlackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+
+    <!-- Black Textured Fabric Gradient -->
+    <linearGradient id="blackPoloFabric" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="40%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#0f0f11"/>
+    </linearGradient>
+
+    <!-- Collar Gradient -->
+    <linearGradient id="collarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+
+    <!-- Pink knitwear blur behind for authentic store context -->
+    <linearGradient id="pinkKnit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <filter id="poloShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#poloBlackBg)"/>
+
+  <!-- Pink rack background simulation as seen in Photo 3 -->
+  <rect x="50" y="80" width="700" height="260" fill="url(#pinkKnit)" rx="8"/>
+
+  <!-- HUD Tag -->
+  <text x="40" y="55" fill="#ff5500" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="2">PHOTO 03 // DRIP STUDIOS STREET POLO</text>
+  <text x="760" y="55" fill="#71717a" font-family="monospace" font-size="13" text-anchor="end">SINDHU BHAVAN STORE</text>
+
+  <!-- Black Metal Hanger -->
+  <g transform="translate(400, 110)">
+    <path d="M 0,25 C -5,10 -15,0 -20,-15 C -25,-32 -10,-55 12,-52 C 28,-50 32,-35 22,-20 C 18,-15 5,-5 0,25" fill="none" stroke="#71717a" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="0,25 -220,110 -210,122 0,45 210,122 220,110" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="-18" y="25" width="36" height="18" fill="#09090b" rx="2" stroke="#52525b"/>
+  </g>
+
+  <!-- Black Polo Shirt Body & Long Sleeves -->
+  <g filter="url(#poloShadow)">
+    <path d="
+      M 320,150 
+      L 480,150
+      L 630,210
+      L 710,480
+      L 630,510
+      L 580,360
+      L 580,780
+      L 220,780
+      L 220,360
+      L 170,510
+      L 90,480
+      L 170,210
+      Z
+    " fill="url(#blackPoloFabric)" stroke="#3f3f46" stroke-width="1.5"/>
+
+    <!-- Subtle Ribbed Knit Texture Lines -->
+    <g stroke="#27272a" stroke-width="1" opacity="0.6">
+      <line x1="250" y1="360" x2="250" y2="760"/>
+      <line x1="290" y1="360" x2="290" y2="760"/>
+      <line x1="330" y1="360" x2="330" y2="760"/>
+      <line x1="470" y1="360" x2="470" y2="760"/>
+      <line x1="510" y1="360" x2="510" y2="760"/>
+      <line x1="550" y1="360" x2="550" y2="760"/>
+    </g>
+
+    <!-- Open Spread Rugby Polo Collar (Notched V-Neck) -->
+    <!-- Collar Left Wing -->
+    <polygon points="310,145 260,250 375,255 350,150" fill="url(#collarGrad)" stroke="#52525b" stroke-width="2"/>
+    <!-- Collar Right Wing -->
+    <polygon points="490,145 540,250 425,255 450,150" fill="url(#collarGrad)" stroke="#52525b" stroke-width="2"/>
+    <!-- Open Neck Notch Placket -->
+    <polygon points="360,170 440,170 415,280 385,280" fill="#09090b" stroke="#3f3f46" stroke-width="1.5"/>
+
+    <!-- Stitched Woven Tag: DRIP STUDIOS INDIA -->
+    <g transform="translate(365, 175)">
+      <rect width="70" height="24" fill="#ffffff" stroke="#cbd5e1" rx="1"/>
+      <text x="35" y="12" font-family="sans-serif" font-weight="900" font-size="7" fill="#0f0f11" text-anchor="middle" letter-spacing="1">DRIP STUDIOS</text>
+      <text x="35" y="20" font-family="sans-serif" font-size="5" fill="#71717a" text-anchor="middle">INDIA</text>
+    </g>
+
+    <!-- Metallic Hem Rivet (as in photo) -->
+    <circle cx="550" cy="770" r="5" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- ================= GRAPHIC ARTWORK ================= -->
+    <g transform="translate(400, 480)">
+      <!-- Giant Crisp White Numeral "9" -->
+      <g>
+        <!-- Shadow -->
+        <text x="0" y="4" font-family="'Arial Black', Impact, sans-serif" font-size="230" font-weight="900" fill="#09090b" text-anchor="middle">9</text>
+        <!-- Foreground Clean White 9 -->
+        <text x="0" y="0" font-family="'Arial Black', Impact, sans-serif" font-size="230" font-weight="900" fill="#ffffff" text-anchor="middle">9</text>
+      </g>
+
+      <!-- Curved / Arched DRIP STUDIOS -->
+      <g transform="translate(0, 75)">
+        <path id="dripArc" d="M -110,-10 Q 0,15 110,-10" fill="none"/>
+        <text font-family="'Arial Black', Impact, sans-serif" font-size="22" font-weight="900" fill="#ffffff" letter-spacing="3">
+          <textPath href="#dripArc" startOffset="50%" text-anchor="middle">
+            DRIP STUDIOS
+          </textPath>
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Spec Bar Badge -->
+  <rect x="40" y="910" width="720" height="50" fill="#18181b" stroke="#27272a"/>
+  <text x="60" y="940" fill="#ff5500" font-family="monospace" font-size="14" font-weight="bold">BOHOO AHMEDABAD // "9" DRIP STUDIOS POLO</text>
+  <text x="740" y="940" fill="#ededed" font-family="monospace" font-size="16" font-weight="bold" text-anchor="end">₹1,000 INR</text>
+</svg>

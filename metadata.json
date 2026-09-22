@@ -1,0 +1,6 @@
+{
+  "name": "Bohoo Ahmedabad",
+  "description": "Official store profile and streetwear collection showcase for Bohoo Ahmedabad on Sindhu Bhavan Marg, Bodakdev, Ahmedabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

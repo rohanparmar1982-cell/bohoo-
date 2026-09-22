@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="maroonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f12"/>
+      <stop offset="100%" stop-color="#0a0809"/>
+    </linearGradient>
+
+    <!-- Deep Maroon Fabric Gradient -->
+    <linearGradient id="maroonFabric" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73162b"/>
+      <stop offset="60%" stop-color="#5c0f20"/>
+      <stop offset="100%" stop-color="#420815"/>
+    </linearGradient>
+
+    <!-- Chrome Mannequin Gradient -->
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="25%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="75%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <!-- Gold Rhinestone Shimmer Gradient -->
+    <linearGradient id="rhinestoneGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#f59e0b"/>
+      <stop offset="60%" stop-color="#ffffff"/>
+      <stop offset="85%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+
+    <!-- Drop shadow -->
+    <filter id="shadowFilter" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#maroonBg)"/>
+
+  <!-- Technical Overlay HUD -->
+  <text x="40" y="55" fill="#ff5500" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="2">PHOTO 02 // CHROME MANNEQUIN DISPLAY</text>
+  <text x="760" y="55" fill="#71717a" font-family="monospace" font-size="13" text-anchor="end">STORE CENTERPIECE</text>
+
+  <!-- Chrome Mannequin Neck & Head Silhouette behind collar -->
+  <g transform="translate(400, 140)">
+    <!-- Neck -->
+    <rect x="-35" y="-60" width="70" height="80" rx="30" fill="url(#chromeGrad)" stroke="#475569" stroke-width="2"/>
+    <!-- Head Base -->
+    <ellipse cx="0" cy="-60" rx="42" ry="50" fill="url(#chromeGrad)" stroke="#334155" stroke-width="2"/>
+  </g>
+
+  <!-- Chrome Mannequin Arms Outline -->
+  <g fill="url(#chromeGrad)" stroke="#334155" stroke-width="2">
+    <!-- Left Arm -->
+    <path d="M 175,270 L 140,520 L 175,530 L 205,330 Z"/>
+    <!-- Right Arm -->
+    <path d="M 625,270 L 660,520 L 625,530 L 595,330 Z"/>
+  </g>
+
+  <!-- Denim Jeans waistband at bottom -->
+  <g transform="translate(400, 780)">
+    <path d="M -190,0 L 190,0 L 180,120 L -180,120 Z" fill="#25425f" stroke="#1d3557" stroke-width="2"/>
+    <!-- Jeans belt loops and fly stitching -->
+    <rect x="-10" y="0" width="20" height="70" fill="#1e3a5f" stroke="#e0a96d" stroke-dasharray="3,2" stroke-width="1.5"/>
+    <line x1="-160" y1="20" x2="160" y2="20" stroke="#e0a96d" stroke-dasharray="4,2" stroke-width="2"/>
+  </g>
+
+  <!-- Maroon T-Shirt Silhouette -->
+  <g filter="url(#shadowFilter)">
+    <path d="
+      M 320,150 
+      C 340,165 460,165 480,150
+      L 620,210
+      L 670,360
+      L 580,390
+      L 560,330
+      L 570,780
+      L 230,780
+      L 240,330
+      L 220,390
+      L 130,360
+      L 180,210
+      Z
+    " fill="url(#maroonFabric)" stroke="#881337" stroke-width="1.5"/>
+
+    <!-- Collar -->
+    <path d="M 320,150 C 350,185 450,185 480,150 C 465,135 335,135 320,150 Z" fill="#4c0519" stroke="#881337" stroke-width="2"/>
+
+    <!-- Stitched Neck Label -->
+    <g transform="translate(370, 160)">
+      <rect width="60" height="22" fill="#ffffff" rx="1"/>
+      <text x="30" y="14" font-family="sans-serif" font-weight="900" font-size="8" fill="#581c87" text-anchor="middle" letter-spacing="1">BOHOO</text>
+    </g>
+
+    <!-- ================= GRAPHIC ARTWORK ================= -->
+    <g transform="translate(400, 310)">
+      <!-- 1. Top Script: "Bohoo" in cursive with rhinestone crystal border -->
+      <g>
+        <!-- Shadow outline -->
+        <text x="0" y="0" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="95" font-weight="bold" fill="#3b0712" text-anchor="middle">Bohoo</text>
+        <!-- Main Gold Lettering -->
+        <text x="-2" y="-2" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="95" font-weight="bold" fill="url(#rhinestoneGold)" stroke="#d97706" stroke-width="1.5" text-anchor="middle">Bohoo</text>
+        <!-- Rhinestone sparkling dots simulation -->
+        <g fill="#ffffff" opacity="0.9">
+          <circle cx="-90" cy="-35" r="2.5"/>
+          <circle cx="-70" cy="-45" r="2"/>
+          <circle cx="-40" cy="-20" r="2.5"/>
+          <circle cx="-10" cy="-30" r="2"/>
+          <circle cx="25" cy="-15" r="2.5"/>
+          <circle cx="65" cy="-25" r="2"/>
+          <circle cx="95" cy="-10" r="2.5"/>
+        </g>
+      </g>
+
+      <!-- Subtitle badge: Directed by bohoo / Art & Graphic Department -->
+      <g transform="translate(80, 20)">
+        <text x="0" y="0" font-family="monospace" font-size="8" fill="#e2e8f0" font-weight="bold">Directed by bohoo /</text>
+        <text x="0" y="11" font-family="monospace" font-size="8" fill="#cbd5e1">Art &amp; Graphic Department</text>
+      </g>
+
+      <!-- 2. Centerpiece: Trio of Rearing Winged Pegasus Horses (White Screenprint) -->
+      <g transform="translate(0, 150) scale(0.95)" fill="#ffffff" stroke="#e2e8f0" stroke-width="1">
+        <!-- Center Pegasus (Rearing Left) -->
+        <g transform="translate(-40, -40) scale(1.1)">
+          <!-- Body & Chest -->
+          <path d="M 0,0 C 10,-20 30,-25 45,-15 C 55,-5 60,15 50,35 C 45,45 35,50 20,40 C 10,35 5,20 0,0 Z" fill="#ffffff"/>
+          <!-- Rearing Front Legs -->
+          <path d="M 10,-10 L -25,-45 L -20,-50 L 15,-20" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+          <path d="M 25,-5 L 5,-40 L 12,-44 L 32,-15" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+          <!-- Majestic Wing Extended -->
+          <path d="M 35,-15 C 60,-75 110,-95 140,-80 C 130,-50 110,-30 75,-15 C 95,-10 115,10 100,25 C 80,15 65,5 50,10 Z" fill="#ffffff" opacity="0.95"/>
+          <path d="M 35,-15 Q 85,-65 125,-70 M 45,-10 Q 90,-45 110,-35" stroke="#cbd5e1" stroke-width="1.5" fill="none"/>
+          <!-- Powerful Hind Legs -->
+          <path d="M 35,45 L 20,95 L 35,100 L 48,55" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+          <!-- Mane & Head -->
+          <path d="M -10,-15 C -25,-25 -30,-45 -25,-60 C -15,-55 -5,-40 0,-25 Z" fill="#ffffff"/>
+        </g>
+
+        <!-- Right Pegasus (Wing spread upward) -->
+        <g transform="translate(70, -20) scale(0.9)">
+          <path d="M 0,0 C 15,-15 35,-15 45,0 C 50,15 45,35 30,40 C 15,45 5,30 0,0 Z" fill="#ffffff"/>
+          <path d="M 20,-10 C 40,-60 80,-70 100,-50 C 90,-30 70,-15 45,-5 Z" fill="#ffffff"/>
+          <path d="M 5,-5 L -15,-30 M 15,0 L 5,-30" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+          <path d="M 25,35 L 20,80" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+        </g>
+
+        <!-- Left Pegasus (Mid gallop) -->
+        <g transform="translate(-110, 0) scale(0.85)">
+          <path d="M 0,0 C 15,-15 35,-15 45,0 C 50,15 45,35 30,40 C 15,45 5,30 0,0 Z" fill="#ffffff"/>
+          <path d="M 20,-10 C 35,-50 70,-60 85,-40 C 75,-25 60,-15 40,-5 Z" fill="#ffffff"/>
+          <path d="M 5,-5 L -20,-25 M 15,0 L -5,-25" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+          <path d="M 25,35 L 30,75" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- 3. Bottom Script: "Department" in Gold Rhinestone Calligraphy -->
+      <g transform="translate(0, 310)">
+        <text x="0" y="0" font-family="'Brush Script MT', 'Great Vibes', cursive, serif" font-size="82" font-weight="bold" fill="url(#rhinestoneGold)" stroke="#b45309" stroke-width="1.5" text-anchor="middle">Department</text>
+        <!-- Sparkle points -->
+        <circle cx="-130" cy="-20" r="2" fill="#ffffff"/>
+        <circle cx="-80" cy="-10" r="2.5" fill="#ffffff"/>
+        <circle cx="20" cy="-25" r="2" fill="#ffffff"/>
+        <circle cx="110" cy="-15" r="2.5" fill="#ffffff"/>
+        <circle cx="140" cy="-30" r="2" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Spec Bar Badge -->
+  <rect x="40" y="910" width="720" height="50" fill="#18181b" stroke="#27272a"/>
+  <text x="60" y="940" fill="#ff5500" font-family="monospace" font-size="14" font-weight="bold">BOHOO AHMEDABAD // PEGASUS RHINESTONE TEE</text>
+  <text x="740" y="940" fill="#ededed" font-family="monospace" font-size="16" font-weight="bold" text-anchor="end">₹1,000 INR</text>
+</svg>
